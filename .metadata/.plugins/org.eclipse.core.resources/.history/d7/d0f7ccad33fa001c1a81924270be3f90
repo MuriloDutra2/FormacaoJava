@@ -1,0 +1,23 @@
+public class Exercicio {
+
+    public static void main(String[] args) {
+
+        double salario = 3300.0;
+
+        
+        if (salario <= 2800) {
+        	salario = salario - 142;
+        }else {
+        	if (salario >= 2800.1 ) {
+        		salario = salario - 350;
+        	} else {
+        		(salario  >= 3751 ) {
+        			salario = salario - 636;
+        		}
+        	}
+        }
+    
+        
+        System.out.println(salario);
+   }
+}
