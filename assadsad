@@ -1,0 +1,114 @@
+warning: in the working copy of '.metadata/.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/.metadata/.log b/.metadata/.log[m
+[1mindex 637cc3d..469aea7 100644[m
+[1m--- a/.metadata/.log[m
+[1m+++ b/.metadata/.log[m
+[36m@@ -1324,3 +1324,194 @@[m [muser global configuration and to define the default location to store repositori[m
+ not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and[m
+ EGit might behave differently since they see different configuration options.[m
+ This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.[m
+[32m+[m[32m!SESSION 2022-07-09 12:46:27.403 -----------------------------------------------[m
+[32m+[m[32meclipse.buildId=4.23.0.I20220308-0310[m
+[32m+[m[32mjava.version=18[m
+[32m+[m[32mjava.vendor=Oracle Corporation[m
+[32m+[m[32mBootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR[m
+[32m+[m[32mFramework arguments:  -product org.eclipse.epp.package.java.product[m
+[32m+[m[32mCommand-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product[m
+[32m+[m
+[32m+[m[32m!ENTRY org.eclipse.jface 2 0 2022-07-09 12:47:23.148[m
+[32m+[m[32m!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.[m
+[32m+[m[32m!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-09 12:47:23.148[m
+[32m+[m[32m!MESSAGE A conflict occurred for CTRL+SHIFT+T:[m
+[32m+[m[32mBinding(CTRL+SHIFT+T,[m
+[32m+[m	[32mParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,[m
+[32m+[m		[32mOpen a type in a Java editor,[m
+[32m+[m		[32mCategory(org.eclipse.ui.category.navigate,Navigate,null,true),[m
+[32m+[m		[32morg.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ab2009f,[m
+[32m+[m		[32m,,true),null),[m
+[32m+[m	[32morg.eclipse.ui.defaultAcceleratorConfiguration,[m
+[32m+[m	[32morg.eclipse.ui.contexts.window,,,system)[m
+[32m+[m[32mBinding(CTRL+SHIFT+T,[m
+[32m+[m	[32mParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,[m
+[32m+[m		[32m,[m
+[32m+[m		[32mCategory(org.eclipse.lsp4e.category,Language Servers,null,true),[m
+[32m+[m		[32morg.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2a11ae0b,[m
+[32m+[m		[32m,,true),null),[m
+[32m+[m	[32morg.eclipse.ui.defaultAcceleratorConfiguration,[m
+[32m+[m	[32morg.eclipse.ui.contexts.window,,,system)[m
+[32m+[m[32m!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-09 12:47:23.148[m
+[32m+[m[32m!MESSAGE A conflict occurred for ALT+SHIFT+R:[m
+[32m+[m[32mBinding(ALT+SHIFT+R,[m
+[32m+[m	[32mParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,[m
+[32m+[m		[32mRename the selected element,[m
+[32m+[m		[32mCategory(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),[m
+[32m+[m		[32morg.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e4d8770,[m
+[32m+[m		[32m,,true),null),[m
+[32m+[m	[32morg.eclipse.ui.defaultAcceleratorConfiguration,[m
+[32m+[m	[32morg.eclipse.ui.contexts.window,,,system)[m
+[32m+[m[32mBinding(ALT+SHIFT+R,[m
+[32m+[m	[32mParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,[m
+[32m+[m		[32mRename the selected item,[m
+[32m+[m		[32mCategory(org.eclipse.ui.category.file,File,null,true),[m
+[32m+[m		[32morg.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b5b9521,[m
+[32m+[m		[32m,,true),null),[m
+[32m+[m	[32morg.eclipse.ui.defaultAcceleratorConfiguration,[m
+[32m+[m	[32morg.eclipse.ui.contexts.window,,,system)[m
+[32m+[m
+[32m+[m[32m!ENTRY org.eclipse.egit.ui 2 0 2022-07-09 12:47:40.267[m
+[32m+[m[32m!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git[m
+[32m+[m[32muser global configuration and to define the default location to store repositories: 'C:\Users\megaf'. If this is[m
+[32m+[m[32mnot correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and[m
+[32m+[m[32mEGit might behave differently since they see different configuration options.[m
+[32m+[m[32mThis warning can be switched off on the Team > Git > Confirmations and Warnings preference page.[m
+[32m+[m
+[32m+[m[32m!ENTRY org.eclipse.oomph.ui 4 0 2022-07-09 12:47:52.089[m
+[32m+[m[32m!MESSAGE java.lang.ExceptionInInitializerError[m
+[32m+[m[32m!STACK 0[m
+[32m+[m[32mjava.lang.ExceptionInInitializerError[m
+[32m+[m	[32mat org.eclipse.oomph.setup.ui.recorder.RecorderManager.<clinit>(RecorderManager.java:121)[m
+[32m+[m	[32mat org.eclipse.oomph.setup.ui.SetupUIPlugin.performStartup(SetupUIPlugin.java:216)[m
+[32m+[m	[32mat org.eclipse.oomph.setup.ui.EarlyStartup.earlyStartup(EarlyStartup.java:23)[m
+[32m+[m	[32mat org.eclipse.oomph.internal.ui.EarlyStart.run(EarlyStart.java:119)[m
+[32m+[m	[32mat org.eclipse.oomph.internal.ui.EarlyStart$1.run(EarlyStart.java:98)[m
+[32m+[m	[32mat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)[m
+[32m+[m[32mCaused by: java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getServiceReference(java.lang.Class)" because "context" is null[m
+[32m+[m	[32mat org.eclipse.oomph.p2.internal.core.AgentManagerImpl.getCurrentAgent(AgentManagerImpl.java:169)[m
+[32m+[m	[32mat org.eclipse.oomph.p2.core.P2Util.getCurrentProvisioningAgent(P2Util.java:111)[m
+[32m+[m	[32mat org.eclipse.oomph.setup.internal.core.util.SetupCoreUtil.<clinit>(SetupCoreUtil.java:157)[m
+[32m+[m	[32m... 6 more[m
+[32m+[m[32m!SESSION 2022-07-10 11:53:08.847 -----------------------------------------------[m
+[32m+[m[32meclipse.buildId=4.23.0.I20220308-0310[m
+[32m+[m[32mjava.version=18[m
+[32m+[m[32mjava.vendor=Oracle Corporation[m
+[32m+[m[32mBootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR[m
+[32m+[m[32mFramework arguments:  -product org.eclipse.epp.package.java.product[m
+[32m+[m[32mCommand-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product[m
+[32m+[m
+[32m+[m[32m!ENTRY org.eclipse.jface 2 0 2022-07-10 12:01:09.603[m
+[32m+[m[32m!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.[m
+[32m+[m[32m!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-10 12:01:09.603[m
+[32m+[m[32m!MESSAGE A conflict occurred for CTRL+SHIFT+T:[m
+[32m+[m[32mBinding(CTRL+SHIFT+T,[m
+[32m+[m	[32mParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,[m
+[32m+[m		[32mOpen a type in a Java editor,[m
+[32m+[m		[32mCategory(org.eclipse.ui.category.navigate,Navigate,null,true),[m
+[32m+[m		[32morg.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3d718248,[m
+[32m+[m		[32m,,true),null),[m
+[32m+[m	[32morg.eclipse.ui.defaultAcceleratorConfiguration,[m
+[32m+[m	[32morg.eclipse.ui.contexts.window,,,system)[m
+[32m+[m[32mBinding(CTRL+SHIFT+T,[m
+[32m+[m	[32mParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,[m
+[32m+[m		[32m,[m
+[32m+[m		[32mCategory(org.eclipse.lsp4e.category,Language Servers,null,true),[m
+[32m+[m		[32morg.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2cdb5974,[m
+[32m+[m		[32m,,true),null),[m
+[32m+[m	[32morg.eclipse.ui.defaultAcceleratorConfiguration,[m
+[32m+[m	[32morg.eclipse.ui.contexts.window,,,system)[m
+[32m+[m[32m!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-10 12:01:09.603[m
+[32m+[m[32m!MESSAGE A conflict occurred for ALT+SHIFT+R:[m
+[32m+[m[32mBinding(ALT+SHIFT+R,[m
+[32m+[m	[32mParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,[m
+[32m+[m		[32mRename the selected element,[m
+[32m+[m		[32mCategory(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),[m
+[32m+[m		[32morg.eclipse.ui.in

@@ -24,22 +24,17 @@ public class TestaCliente {
 		
 		//Criando a conta do Murilo: 
 		
-		Conta contaDoMurilo = new Conta();
+		Conta contaDoMurilo = new Conta(2006, 11122006);
 		
 		//depositando dinheiro
 		contaDoMurilo.deposita(2000);
 		
 		System.out.println("O Saldo dessa conta é " + contaDoMurilo.getSaldo() );
 		
-		//Agencia:
-		contaDoMurilo.setAgencia(2006);
 		
 		System.out.println("A agencia dessa conta é " + contaDoMurilo.getAgencia());
 		
-		//Numero
-		
-		contaDoMurilo.setNumero(11122006);
-		
+			
 		System.out.println("O numero dessa conta é " + contaDoMurilo.getNumero());
 		
 		//Titular
@@ -47,6 +42,12 @@ public class TestaCliente {
 		
 		
 		System.out.println("O Titular dessa conta é " + contaDoMurilo.getTitular());
+		
+		
+		Conta conta = new Conta(2006,2580);
+		
+		
+		System.out.println(Conta.getTotal());
 		
 		
 		
