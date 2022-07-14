@@ -1,0 +1,8 @@
+
+public class Desingner extends Funcionario {
+
+	
+	public double getBonificacao() {
+	return super.getSalario() +	 200 ;
+	}
+}
