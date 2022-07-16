@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
+<<<<<<< HEAD
     <libraryInfo home="C:\Program Files\Java\jdk-18" version="18"/>
+=======
+    <libraryInfo home="C:\Program Files\Java\jdk-18.0.1.1" version="18.0.1.1"/>
+>>>>>>> f3536d15aa2a89e1ce8cd93f784fc066cd85a632
 </libraryInfos>

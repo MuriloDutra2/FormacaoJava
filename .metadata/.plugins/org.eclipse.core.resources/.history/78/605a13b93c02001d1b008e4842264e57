@@ -1,0 +1,38 @@
+
+public class Gerente extends Funcionario {
+	
+	private int senha = 2006;
+	
+
+
+	public boolean autenticou (int senha) {
+		if(senha == senha) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+
+	
+	public int getSenha() {
+		return senha;
+	}
+
+	public void setSenha(int senha) {
+		this.senha = senha;
+	}
+	
+	
+	
+	//public double getBonificacao() {
+	//return this.salario * 0.1;
+	//}
+	
+	
+	
+	
+	
+	
+
+}
