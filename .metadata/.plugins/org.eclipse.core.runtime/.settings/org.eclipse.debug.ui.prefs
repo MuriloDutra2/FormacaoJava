@@ -1,12 +1,10 @@
-<<<<<<< HEAD
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=f3536d15aa2a89e1ce8cd93f784fc066cd85a632
 DEBUG.consoleOpenOnErr=false
 DEBUG.consoleOpenOnOut=false
 eclipse.preferences.version=1
 org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n
-=======
-eclipse.preferences.version=1
-org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n
 org.eclipse.debug.ui.cancel_launch_with_compile_errors=always
->>>>>>> f3536d15aa2a89e1ce8cd93f784fc066cd85a632
 org.eclipse.debug.ui.save_dirty_editors_before_launch=always
 preferredTargets=default\:default|
