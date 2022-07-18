@@ -3,6 +3,6 @@ public class Desingner extends Funcionario {
 
 	
 	public double getBonificacao() {
-	return  200 ;
+	return super.getBonificacao() +	 200 ;
 	}
 }
