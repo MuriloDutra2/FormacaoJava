@@ -1,3 +1,5 @@
+import javax.sound.midi.MidiUnavailableException;
+
 public class FluxoComTratamento {
 
     public static void main(String[] args) {
@@ -5,7 +7,7 @@ public class FluxoComTratamento {
       
         try {
         	metodo1();
-           } catch (ArithmeticException | NullPointerException ex) {
+           } catch (ArithmeticException | NullPointerException  | MinhaExcecao ex) {
         	   String msg = ex.getMessage();
 			System.out.println("Exception" + msg);
 			ex.printStackTrace();
@@ -13,7 +15,7 @@ public class FluxoComTratamento {
         System.out.println("Fim do main");
     }
 
-    private static void metodo1() {
+    private static void metodo1() throws MinhaExcecao {
         System.out.println("Ini do metodo1");
   
          metodo2();
@@ -22,10 +24,10 @@ public class FluxoComTratamento {
         System.out.println("Fim do metodo1");
     }
 
-    private static void metodo2() {
+    private static void metodo2() throws MinhaExcecao {
         System.out.println("Ini do metodo2");
 
-        throw new ArithmeticException(" Deu errado");
+        throw new MinhaExcecao(" Deu muito errado");
   
         
         //System.out.println("Fim do metodo2");        
